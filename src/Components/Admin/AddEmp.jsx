@@ -169,53 +169,50 @@ const AddEmp = () => {
                         </div>
                         <div class="row g-3 p-3">
                             <div class="col-md-4">
-                                <label for="department" class="form-label">Department</label>
-                                <select id="department" class="form-select">
+                                <label for="bsalary" class="form-label">Basic Salary</label>
+                                <input type="text" class="form-control" id="bsalary" />
+                            </div>
+                            <div class="col-md-4">
+                                <label for="allowType" class="form-label">Allowance Type</label>
+                                <select id="allowType" class="form-select">
                                     <option selected>Select</option>
-                                    <option>IT</option>
-                                    <option>HR</option>
-                                    <option>Finance</option>
-                                    <option>Marketing</option>
-                                    <option>Technical</option>
-                                    <option>Service</option>
+                                    <option>Food</option>
+                                    <option>Health</option>
+                                    <option>Travel</option>
+                                    <option>Accommodation</option>
                                 </select>
                             </div>
                             <div class="col-md-4">
-                                <label for="designation" class="form-label">Designation</label>
-                                <input type="text" class="form-control" id="designation" />
+                                <label for="allowance" class="form-label">Allowance</label>
+                                <input type="text" class="form-control" id="allowance" />
                             </div>
                             <div class="col-md-4">
-                                <label for="empType" class="form-label">Employment Type</label>
-                                <select id="empType" class="form-select">
+                                <label for="deductType" class="form-label">Deduction Type</label>
+                                <select id="deductType" class="form-select">
                                     <option selected>Select</option>
-                                    <option>Intern</option>
-                                    <option>Full-Time</option>
-                                    <option>Part-Time</option>
+                                    <option>Personal Savings</option>
+                                    <option>Retirement Fund</option>
                                 </select>
                             </div>
                             <div class="col-md-4">
-                                <label for="doj" class="form-label">Joining Date</label>
-                                <input type="date" class="form-control" id="doj" />
+                                <label for="deduction" class="form-label">Deduction</label>
+                                <input type="text" class="form-control" id="deduction" />
                             </div>
                             <div class="col-md-4">
-                                <label for="note1" class="form-label">Note</label>
-                                <input type="text" class="form-control" id="note1" />
+                                <label for="bankname" class="form-label">Bank Name</label>
+                                <input type="text" class="form-control" id="bankname" />
                             </div>
                             <div class="col-md-4">
-                                <label for="dor" class="form-label">Date of Resignation</label>
-                                <input type="date" class="form-control" id="dor" />
+                                <label for="acct" class="form-label">Account Number</label>
+                                <input type="text" class="form-control" id="acct" />
                             </div>
                             <div class="col-md-4">
-                                <label for="note2" class="form-label">Note</label>
-                                <input type="text" class="form-control" id="note2" />
+                                <label for="ifsc" class="form-label">IFSC Code</label>
+                                <input type="text" class="form-control" id="ifsc" />
                             </div>
                             <div class="col-md-4">
-                                <label for="workLoc" class="form-label">Work Location</label>
-                                <input type="text" class="form-control" id="workLoc" />
-                            </div>
-                            <div class="col-md-4">
-                                <label for="reportMan" class="form-label">Reporting Manager</label>
-                                <input type="text" class="form-control" id="reportMan" />
+                                <label for="bbranch" class="form-label">Branch</label>
+                                <input type="text" class="form-control" id="bbranch" />
                             </div>
                         </div>
                     </div>
