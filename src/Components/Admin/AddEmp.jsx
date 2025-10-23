@@ -46,6 +46,28 @@ const AddEmp = () => {
                                 </select>
                             </div>
                             <div class="col-md-4">
+                                <label for="bloodgrp" class="form-label">Blood Group</label>
+                                <select id="bloodgrp" class="form-select">
+                                    <option selected>Select</option>
+                                    <option value="a+">A+</option>
+                                    <option value="a-">A-</option>
+                                    <option value="b+">B+</option>
+                                    <option value="b-">B-</option>
+                                    <option value="ba+">AB+</option>
+                                    <option value="ab-">AB-</option>
+                                    <option value="o+">O+</option>
+                                    <option value="o-">O-</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="maritalstatus" class="form-label">Marital Status</label>
+                                <input type="text" class="form-control" id="maritalstatus" />
+                            </div>
+                            <div class="col-md-4">
+                                <label for="experience" class="form-label">Experience in Months</label>
+                                <input type="text" class="form-control" id="experience" />
+                            </div>
+                            <div class="col-md-4">
                                 <label for="empContact" class="form-label">Contact Number</label>
                                 <input type="text" class="form-control" id="empContact" />
                             </div>
