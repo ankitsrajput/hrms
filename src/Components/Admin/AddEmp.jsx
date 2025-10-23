@@ -226,61 +226,19 @@ const AddEmp = () => {
                         <div class="row g-3 p-3">
                             <div class="col-md-4">
                                 <label for="resume" class="form-label">Resume/CV</label>
-                                <input type="file" class="form-control" id="resume" accept=".pdf"/>
+                                <input type="file" class="form-control" id="resume" accept=".pdf" />
                             </div>
                             <div class="col-md-4">
                                 <label for="adhar" class="form-label">Adhaar</label>
-                                <input type="file" class="form-control" id="adhar" accept=".pdf"/>
+                                <input type="file" class="form-control" id="adhar" accept=".pdf" />
                             </div>
                             <div class="col-md-4">
                                 <label for="pan" class="form-label">PAN Card</label>
-                                <input type="file" class="form-control" id="pan" accept=".pdf"/>
+                                <input type="file" class="form-control" id="pan" accept=".pdf" />
                             </div>
                             <div class="col-md-4">
                                 <label for="empProfile" class="form-label">Employee Profile</label>
-                                <input type="file" class="form-control" id="empProfile" accept="image/png, image/jpeg"/>
-                            </div>
-                            <div class="col-md-4">
-                                <label for="allowType" class="form-label">Allowance Type</label>
-                                <select id="allowType" class="form-select">
-                                    <option selected>Select</option>
-                                    <option>Food</option>
-                                    <option>Health</option>
-                                    <option>Travel</option>
-                                    <option>Accommodation</option>
-                                </select>
-                            </div>
-                            <div class="col-md-4">
-                                <label for="allowance" class="form-label">Allowance</label>
-                                <input type="text" class="form-control" id="allowance" />
-                            </div>
-                            <div class="col-md-4">
-                                <label for="deductType" class="form-label">Deduction Type</label>
-                                <select id="deductType" class="form-select">
-                                    <option selected>Select</option>
-                                    <option>Personal Savings</option>
-                                    <option>Retirement Fund</option>
-                                </select>
-                            </div>
-                            <div class="col-md-4">
-                                <label for="deduction" class="form-label">Deduction</label>
-                                <input type="text" class="form-control" id="deduction" />
-                            </div>
-                            <div class="col-md-4">
-                                <label for="bankname" class="form-label">Bank Name</label>
-                                <input type="text" class="form-control" id="bankname" />
-                            </div>
-                            <div class="col-md-4">
-                                <label for="acct" class="form-label">Account Number</label>
-                                <input type="text" class="form-control" id="acct" />
-                            </div>
-                            <div class="col-md-4">
-                                <label for="ifsc" class="form-label">IFSC Code</label>
-                                <input type="text" class="form-control" id="ifsc" />
-                            </div>
-                            <div class="col-md-4">
-                                <label for="bbranch" class="form-label">Branch</label>
-                                <input type="text" class="form-control" id="bbranch" />
+                                <input type="file" class="form-control" id="empProfile" accept="image/png, image/jpeg" />
                             </div>
                         </div>
                     </div>
