@@ -264,13 +264,14 @@ const AddEmp = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 my-3 text-center">
-                        <button type="submit" class="btn btn-primary rounded-1">Save</button>
+                    <div class="col-12 my-3  text-end">
+                            <button type="submit" class="btn btn-primary rounded-1 me-1">Cancel</button>
+                            <button type="submit" class="btn btn-primary rounded-1 ms-1">Save Employee</button>
                     </div>
                 </div>
             </div>
         </>
-    )
-}
+    );
+};
 
 export default AddEmp;

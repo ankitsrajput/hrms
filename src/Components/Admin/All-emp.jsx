@@ -14,49 +14,48 @@ const Allemp = () => {
         <>
             <Navbar />
             <Sidebar />
-            <div className="d-flex">
-                <div className="flex-grow-1" style={{ marginLeft: "250px" }}>
-                    <div className="container bg-light">
-                        {/* Add button Starts */}
-                        <div className="modal-button-style mt-5 pt-5">
-                            <button type="button" class="btn btn-success" onClick={() => navigate("/admin/add-employee")}>Add</button>
-                        </div>
-                        {/* Add button end */}
 
-                        {/* Table Starts here */}
-                            <table class="table table-striped table-hover">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Sr No.</th>
-                                        <th scope="col">First Name</th>
-                                        <th scope="col">Last Name</th>
-                                        <th scope="col">Insta Handle</th>
-                                        <th scope="col">Action</th>
-                                        <th scope="col">Status</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    {tableData.map((row, index) => {
-                                        return (
-                                            <tr>
-                                                <th scope="row">{index + 1}</th>
-                                                <td>{row.fname}</td>
-                                                <td>{row.lname}</td>
-                                                <td><span>@</span>{row.instahandle}</td>
-                                                <td className="action-style">
-                                                    <i class="edit-icon bi bi-pencil-square" title="Edit" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
-                                                    <i class="bi bi-trash3" title="Delete"></i>
-                                                </td>
-                                                <td>{row.status}</td>
-                                            </tr>
-                                        )
-                                    })}
-                                </tbody>
-                            </table>
-                        </div>
-                        {/* Table ends here */}
+            <div className="container bg-light">
+                <div className="row bg-secondary">
+                    <h5 class="text-light  mt-2">
+                        <span><i class="bi bi-info-circle m-2"></i></span>
+                        Employee List
+                    </h5>
+                </div>
+                <div class="row g-3 p-3">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>John</td>
+                                <td>Doe</td>
+                                <td>@social</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
+
         </>
     )
 }
