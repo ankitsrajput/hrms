@@ -1,0 +1,19 @@
+/* Global CSS */
+:root{
+  --ans-primary-bg: #005c51;
+  --ans-secondary: #88e03e;
+  --ans-secondary-bg: #abed23;
+}
+
+#root{
+  text-align: start !important;
+}
+.ans-primary-bg{
+  background-color: var(--ans-primary-bg);
+}
+
+/* All Employess List CSS */
+.modal-button-style{
+    text-align: end;
+    margin-right: 10px;
+}

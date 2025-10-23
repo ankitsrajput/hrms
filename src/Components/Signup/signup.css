@@ -1,0 +1,24 @@
+.signup-body {
+    background: url("/imgs/bg/bg-6.jpg") center center/cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ans-h2 {
+    font-weight: 600;
+}
+
+.text-decoration a {
+    text-decoration: none;
+}
+
+.ans-consent {
+    display: flex;
+    flex-direction: row;
+}
+
+.ans-validate{
+    font-size: 11px;
+    color: red;
+    margin-top: -10px;
+}

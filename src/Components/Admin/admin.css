@@ -1,0 +1,61 @@
+/* Active main menu */
+.active-menu {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-left: 4px solid #0dcaf0; /* Bootstrap info color */
+}
+
+/* Active submenu */
+.active-submenu {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-left: 3px solid #0dcaf0;
+  color: #0dcaf0;
+}
+
+/* Hover states */
+.hover-bg:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Smooth color transition */
+.menu-item div,
+.submenu li {
+  transition: all 0.2s ease;
+}
+
+/* Tooltip for collapsed mode */
+.sidebar.collapsed li span {
+  display: none;
+}
+
+.sidebar.collapsed li:hover::after {
+  content: attr(title);
+  position: absolute;
+  left: 70px;
+  background: #222;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+  z-index: 1050;
+}
+
+/* Submenu transition */
+.submenu {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.submenu.show {
+  max-height: 500px;
+}
+
+/* Layout shifting */
+.main-content {
+  margin-left: 250px;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar.collapsed ~ .main-content {
+  margin-left: 70px;
+}

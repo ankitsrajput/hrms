@@ -1,0 +1,67 @@
+.login-body {
+    background: url("/imgs/bg/bg-6.jpg") center center/cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.login-avtar {
+    color: steelblue;
+    font-size: 3.5rem;
+}
+
+.ans-h2 {
+    font-weight: 600;
+}
+
+.ans-bg-shadow{
+    box-shadow: 0px 0px 30px 12px rgba(255, 255, 255, .75);
+}
+
+.ans-form-control {
+    border: none !important;
+    border-radius: 0px !important;
+    border-bottom: .1rem solid #005c51 !important;
+}
+
+.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-style {
+    text-align: center;
+}
+
+.error-style {
+    color: red;
+}
+
+.already-account a {
+    text-decoration: none;
+}
+
+.ans-d-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.eye-flex {
+    display: inline-flex;
+    width: inherit;
+}
+
+.btn-eye {
+    border: none !important;
+    background: white !important;
+    color: #005c51 !important;
+    border-bottom: 0.1rem solid #005c51 !important;
+    border-radius: 0px !important;
+}
+
+.ans-validate{
+    text-align: start;
+    font-size: 13px;
+    color: red;
+    margin-top: -10px;
+}
