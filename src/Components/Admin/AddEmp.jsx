@@ -264,6 +264,9 @@ const AddEmp = () => {
                             </div>
                         </div>
                     </div>
+                    <div class="col-12 my-3 text-center">
+                        <button type="submit" class="btn btn-primary rounded-1">Save</button>
+                    </div>
                 </div>
             </div>
         </>
