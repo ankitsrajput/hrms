@@ -58,7 +58,6 @@ const Admin = () => {
                                 </div>
                             </div>
                         </div>
-
                         <div class="col-lg-3 col-md-6 col-12">
                             <div class="stat-card border rounded shadow-sm">
                                 <div class="card-body p-3">
@@ -80,7 +79,6 @@ const Admin = () => {
                                 </div>
                             </div>
                         </div>
-
                         <div class="col-lg-3 col-md-6 col-12">
                             <div class="stat-card border rounded shadow-sm">
                                 <div class="card-body p-3">
@@ -157,7 +155,6 @@ const Admin = () => {
                                         </div>
                                         <span class="fw-bold text-primary fs-5">11</span>
                                     </div>
-
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="d-flex align-items-center">
                                             <i class="fas fa-university"></i>&nbsp;
