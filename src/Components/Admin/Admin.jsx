@@ -176,9 +176,7 @@ const Admin = () => {
                                             <i class="bi bi-person-workspace text-primary fs-4"></i>
                                             <span class="fs-6">HR:</span>
                                         </div>
-                                        <span class="fw-bold text-primary fs-5">
-                                            <i class="bi bi-currency-dollar"></i>3
-                                        </span>
+                                        <span class="fw-bold text-primary fs-5">3</span>
                                     </div>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="d-flex align-items-center">
