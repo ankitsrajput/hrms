@@ -15,17 +15,92 @@ const Admin = () => {
                 <div className="flex-grow-1 p-4" style={{ marginLeft: "250px" }}></div>
                 <div class="container">
                     <div class="row gx-2">
-                        <div class="col border">
-                            <div class="p-3">Custom column padding</div>
+                        <div class="col-md-3">
+                            <div class="stat-card border rounded shadow-sm">
+                                <div class="card-body p-3">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <i class="bi bi-people-fill text-primary fs-3"></i>
+                                            <span class="fs-6">Total Emps</span>
+                                        </div>
+                                        <span class="fw-bold text-primary fs-5">: ₹1001</span>
+                                    </div>
+
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fas fa-university"></i>&nbsp;
+                                            <span>Bank</span>
+                                        </div>
+                                        <span class="fw-bold fs-4">: ₹0</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col border">
-                            <div class="p-3">Custom column padding</div>
+
+                        <div class="col-md-3">
+                            <div class="stat-card border rounded shadow-sm">
+                                <div class="card-body p-3">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <i class="bi bi-people-fill text-primary fs-3"></i>
+                                            <span class="fs-6">New Emps</span>
+                                        </div>
+                                        <span class="fw-bold text-primary fs-5">: ₹1001</span>
+                                    </div>
+
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fas fa-university"></i>&nbsp;
+                                            <span>Bank</span>
+                                        </div>
+                                        <span class="fw-bold fs-4">: ₹0</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col border">
-                            <div class="p-3">Custom column padding</div>
+
+                        <div class="col-md-3">
+                            <div class="stat-card border rounded shadow-sm">
+                                <div class="card-body p-3">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <i class="bi bi-people-fill text-primary fs-3"></i>
+                                            <span class="fs-6">Interns</span>
+                                        </div>
+                                        <span class="fw-bold text-primary fs-5">: ₹1001</span>
+                                    </div>
+
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fas fa-university"></i>&nbsp;
+                                            <span>Bank</span>
+                                        </div>
+                                        <span class="fw-bold fs-4">: ₹0</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col border">
-                            <div class="p-3">Custom column padding</div>
+
+                        <div class="col-md-3">
+                            <div class="stat-card border rounded shadow-sm">
+                                <div class="card-body p-3">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <i class="bi bi-people-fill text-primary fs-3"></i>
+                                            <span class="fs-6">Total Employees</span>
+                                        </div>
+                                        <span class="fw-bold text-primary fs-5">: ₹1001</span>
+                                    </div>
+
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fas fa-university"></i>&nbsp;
+                                            <span>Bank</span>
+                                        </div>
+                                        <span class="fw-bold fs-4">: ₹0</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
