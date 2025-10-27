@@ -10,8 +10,28 @@ const Admin = () => {
     return (
         <>
             <Navbar />
-            <Sidebar/>
-            <h1>Hello! admin</h1>
+            <Sidebar />
+            <div className="d-flex pt-3">
+                <div className="flex-grow-1 p-4" style={{ marginLeft: "250px" }}></div>
+                <div class="container">
+                    <div class="row gx-2">
+                        <div class="col border">
+                            <div class="p-3">Custom column padding</div>
+                        </div>
+                        <div class="col border">
+                            <div class="p-3">Custom column padding</div>
+                        </div>
+                        <div class="col border">
+                            <div class="p-3">Custom column padding</div>
+                        </div>
+                        <div class="col border">
+                            <div class="p-3">Custom column padding</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </>
     );
 };
