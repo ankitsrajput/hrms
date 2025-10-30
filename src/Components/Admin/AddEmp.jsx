@@ -33,7 +33,7 @@ const AddEmp = () => {
                                 <input type="text" class="form-control" id="lname" />
                             </div>
                             <div class="col-md-4">
-                                <label for="empDob" class="form-label">Date of Birth</label>
+                                <label for="empDob" class="form-label">Date of Birth (MM/DD/YY)</label>
                                 <input type="date" class="form-control" id="empDob" />
                             </div>
                             <div class="col-md-4">
@@ -157,7 +157,7 @@ const AddEmp = () => {
                                 </select>
                             </div>
                             <div class="col-md-4">
-                                <label for="doj" class="form-label">Joining Date</label>
+                                <label for="doj" class="form-label">Joining Date (MM/DD/YY)</label>
                                 <input type="date" class="form-control" id="doj" />
                             </div>
                             <div class="col-md-4">
@@ -165,7 +165,7 @@ const AddEmp = () => {
                                 <input type="text" class="form-control" id="note1" />
                             </div>
                             <div class="col-md-4">
-                                <label for="dor" class="form-label">Date of Resignation</label>
+                                <label for="dor" class="form-label">Date of Resignation (MM/DD/YY)</label>
                                 <input type="date" class="form-control" id="dor" />
                             </div>
                             <div class="col-md-4">
