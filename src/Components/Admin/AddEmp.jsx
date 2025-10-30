@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate, Navigate } from "react-router-dom";
 import { useState } from "react";
 import Navbar from "../Navbar/Navbar";
-import Sidebar from "./Sidebar/Sidebar";
+import Sidebar from "../Sidebar/Sidebar";
 
 const AddEmp = () => {
 

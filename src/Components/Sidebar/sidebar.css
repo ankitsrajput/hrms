@@ -1,0 +1,15 @@
+.admin-sidebar {
+  width: 250px;
+  position: fixed;
+  top: 56px; /* Adjust if navbar is fixed-top */
+  left: 0;
+  overflow-y: auto;
+}
+
+.admin-sidebar .nav-link {
+  cursor: pointer;
+}
+
+.admin-sidebar .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}

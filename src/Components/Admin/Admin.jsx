@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import "./admin.css";
 import Navbar from "../Navbar/Navbar";
-import Sidebar from "./Sidebar/Sidebar";
+import Sidebar from "../Sidebar/Sidebar";
 import Login from "../Login/Login";
 import Signup from "../Signup/Signup";
 
